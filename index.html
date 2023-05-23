@@ -24,7 +24,7 @@
                         <img src="images/money.jpg" alt="money-image" class="img-fluid" />
                     </div>
                     <div class="col-lg-5">
-                        <form>
+                        <div class="form">
                             <!-- Income -->
                             <h4>Income</h4>
                             <div class="row g-3 align-items-center">
@@ -73,16 +73,16 @@
                                 <div class="col-auto">
                                     <label for="savings" class="col-form-label">Save</label>
                                 </div>
-                                <div class="col-auto">
+                                <div class="col-auto d-flex">
                                     <!-- rent -->
-                                    <input id="savings" type="text" class="form-control" />
+                                    <input id="savings" type="text" class="form-control" /><span style="font-weight: 700; padding-top: 5px; padding-left: 10px">%</span>
                                 </div>
                                 <button id="save" class="btn btn-warning btn-1" style="width: 150px">Save</button>
                             </div>
 
                             <h4 class="pt-5 pb-2">Saving Amount: <span id="savings_ammount">2000</span></h4>
                             <h4 class="pb-5 pt-2">Remaining Balance: <span id="remaining_balance">2500</span></h4>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,6 +91,6 @@
         <!-- script js -->
         <script src="js/jquery-2.2.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="js/money-master.js"></script>
     </body>
 </html>
