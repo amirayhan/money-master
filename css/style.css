@@ -1,0 +1,47 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+    color: #5e8b2d;
+}
+h4 {
+    font-weight: 700;
+}
+ul,
+ol {
+    list-style: none;
+}
+/* common css end */
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+#money_master {
+    padding: 0 30px;
+}
+form {
+    padding: 50px 50px 50px 100px;
+    background: #f5f5f5;
+}
+form .form-control {
+    width: 100% !important;
+}
+.btn-1 {
+    width: 300px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Money Master Project with Javascript</title>
+
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+        <!-- style css -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <h1 class="text-center">Money <img src="images/money-icon.png" width="70px" /> Master</h1>
+        <section id="money_master">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <img src="images/money.jpg" alt="money-image" class="img-fluid" />
+                    </div>
+                    <div class="col-lg-5">
+                        <form>
+                            <!-- Income -->
+                            <h4>Income</h4>
+                            <div class="row g-3 align-items-center">
+                                <div class="col-auto">
+                                    <label for="income" class="col-form-label">Income</label>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- income -->
+                                    <input id="income" type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <!-- Expences -->
+                            <h4 class="pt-5">Expences</h4>
+                            <div class="row g-3 align-items-center py-2">
+                                <div class="col-auto">
+                                    <label for="food" class="col-form-label">Food</label>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- food -->
+                                    <input id="food" type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="row g-3 align-items-center py-2">
+                                <div class="col-auto">
+                                    <label for="rent" class="col-form-label">Rent</label>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- rent -->
+                                    <input id="rent" type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="row g-3 align-items-center py-2">
+                                <div class="col-auto">
+                                    <label for="clothes" class="col-form-label">Clothes</label>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- clothes -->
+                                    <input id="clothes" type="text" class="form-control" />
+                                </div>
+                                <button id="calculate" class="btn btn-primary btn-1">Calculate</button>
+                            </div>
+                            <h4 class="pt-5 pb-2">Total Expenses: <span id="total_expences">5500</span></h4>
+                            <h4 class="pb-5 pt-2">Balance: <span id="balance">4500</span></h4>
+
+                            <div class="row g-3 align-items-center py-2">
+                                <div class="col-auto">
+                                    <label for="savings" class="col-form-label">Save</label>
+                                </div>
+                                <div class="col-auto">
+                                    <!-- rent -->
+                                    <input id="savings" type="text" class="form-control" />
+                                </div>
+                                <button id="save" class="btn btn-warning btn-1" style="width: 150px">Save</button>
+                            </div>
+
+                            <h4 class="pt-5 pb-2">Saving Amount: <span id="savings_ammount">2000</span></h4>
+                            <h4 class="pb-5 pt-2">Remaining Balance: <span id="remaining_balance">2500</span></h4>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- script js -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>
