@@ -43,8 +43,12 @@ document.getElementById("save").addEventListener("click", function () {
     const balance = elementAmmount("balance");
     const sevingParcent = inputAmmount("savings");
 
-    const savingAmmount = income / 100;
-    const remainingBalance = savingAmmount * sevingParcent;
+    const savingAmmount = (income / 100) * sevingParcent;
+
+    const savingAmmountDisplay = document.getElementById("savings_ammount");
+    savingAmmountDisplay.innerText = savingAmmount;
+
+    const remainingBalance = balance - savingAmmount;
 
     const remainingBalanceDisplay = document.getElementById("remaining_balance");
     remainingBalanceDisplay.innerText = remainingBalance;
