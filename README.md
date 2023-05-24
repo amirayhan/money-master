@@ -1,5 +1,6 @@
-## Money-Master| Project with Core Javascript Dom<a href="https://amirayhan.github.io/money-master/" target="_blank">Live Preview</a>
+## Money-Master| Project with Core Javascript Dom <a href="https://amirayhan.github.io/money-master/" target="_blank">Live Preview</a>
 
+<img src="https://www.linkpicture.com/q/money-master-by-mohammad-rayhan-munshi.png" alt="money-master-by-mohammad-rayhan-munshi" width="300px">
 <p>In this project I have shown total income. I have calculated what I have spent and shown it in Total Expense. Then I subtract the total expenses from the total income to get the balance. Now I calculate the percentage savings I want to save from the total income and find out the savings amount and show it in the savings amount. Then subtract the savings amount from the balance to get the final balance.<br><br>
 
 Since data can be input into this money master, you can try live preview if you want.</p>
