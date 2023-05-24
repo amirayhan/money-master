@@ -38,16 +38,19 @@ document.getElementById("calculate").addEventListener("click", function () {
     balanceDisplay.innerText = balance;
 });
 
+// save button when clicked
 document.getElementById("save").addEventListener("click", function () {
     const income = inputAmmount("income");
     const balance = elementAmmount("balance");
     const sevingParcent = inputAmmount("savings");
 
+    // total saving ammount
     const savingAmmount = (income / 100) * sevingParcent;
 
     const savingAmmountDisplay = document.getElementById("savings_ammount");
     savingAmmountDisplay.innerText = savingAmmount;
 
+    // remaining balance
     const remainingBalance = balance - savingAmmount;
 
     const remainingBalanceDisplay = document.getElementById("remaining_balance");
